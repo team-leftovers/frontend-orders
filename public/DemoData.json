@@ -1,0 +1,68 @@
+{
+  "id": 1,
+  "customerId": 1,
+  "customer": 1,
+  "restaurantId": 1,
+  "restaurant": 1,
+  "driverId": 3,
+  "driver": 3,
+  "discountId": 4,
+  "discount": 4,
+  "status": "delivery",
+  "deliveryTime": "03:03:00",
+  "totalPrice": 88.45,
+  "driverRating": 3,
+  "items": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "order": 1,
+      "foodId": 1,
+      "food": {
+        "id": 1,
+        "name": "Food-ish Stuff",
+        "price": 13.99,
+        "description": "This might be food. Maybe",
+        "restaurantId": 1,
+        "restaurant": 1
+      },
+      "quantity": 5,
+      "additionalInstructions": "Extra Dirt",
+      "foodRating": 5
+    },
+    {
+      "id": 2,
+      "orderId": 1,
+      "order": 1,
+      "foodId": 2,
+      "food": {
+        "id": 2,
+        "name": "Old Boot",
+        "price": 1.00,
+        "description": "Hard-boiled boot. Not tasty.",
+        "restaurantId": 1,
+        "restaurant": 1
+      },
+      "quantity": 7,
+      "additionalInstructions": null,
+      "foodRating": null
+    },
+    {
+      "id": 31,
+      "orderId": 1,
+      "order": 1,
+      "foodId": 3,
+      "food": {
+        "id": 3,
+        "name": "Skunk Cabbage",
+        "price": 5.75,
+        "description": "It's supposed to smell that way. Really.",
+        "restaurantId": 1,
+        "restaurant": 1
+      },
+      "quantity": 2,
+      "additionalInstructions": "Extra Dirt",
+      "foodRating": null
+    }
+  ]
+}
